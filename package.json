@@ -1,0 +1,30 @@
+{
+  "name": "react-native-dashed-border",
+  "version": "0.1.0",
+  "description": "A <DashedBorder> element for react-native",
+  "main": "DashedBorder.ios.js",
+  "author": {
+    "name": "Chirag Jain",
+	"email": "jain_chirag04@yahoo.com",
+    "url": "http://chiragjain.tumblr.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chirag04/react-native-dashed-border.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "dashed border",
+    "uiview",
+    "view"
+  ],
+  "dependencies": {
+    "react-native": "^0.4.1"
+  },
+  "devDependencies": {
+    "jest-cli": "0.2.1"
+  }
+}
