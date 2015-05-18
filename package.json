@@ -1,6 +1,6 @@
 {
   "name": "react-native-dashed-border",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A <DashedBorder> element for react-native",
   "main": "DashedBorder.ios.js",
   "author": {
@@ -22,9 +22,6 @@
     "view"
   ],
   "dependencies": {
-    "react-native": "^0.4.1"
-  },
-  "devDependencies": {
-    "jest-cli": "0.2.1"
+    "react-native": "^0.4.4"
   }
 }
