@@ -5,13 +5,13 @@
 
 'use strict';
 
-var ReactIOSViewAttributes = require('ReactIOSViewAttributes');
-var createReactIOSNativeComponentClass = require('createReactIOSNativeComponentClass');
+var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
+var createReactNativeComponentClass = require('createReactNativeComponentClass');
 var merge = require('merge');
 var deepDiffer = require('deepDiffer');
 
-var DashedBorder = createReactIOSNativeComponentClass({
-  validAttributes: merge(ReactIOSViewAttributes.UIView, {
+var DashedBorder = createReactNativeComponentClass({
+  validAttributes: merge(ReactNativeViewAttributes.UIView, {
     color:           {diff: deepDiffer},
     lineDashPattern: {diff: deepDiffer},
   }),
