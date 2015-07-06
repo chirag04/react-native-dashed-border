@@ -21,6 +21,11 @@ RCT_EXPORT_MODULE();
     return [[RNDashedBorder alloc] init];
 }
 
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
 RCT_EXPORT_VIEW_PROPERTY(color, NSString);
 RCT_EXPORT_VIEW_PROPERTY(lineDashPattern, NSArray);
 
