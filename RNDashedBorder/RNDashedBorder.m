@@ -29,7 +29,7 @@
 - (void)layoutSubviews
 {
   [super layoutSubviews];
-  _border.path = [UIBezierPath bezierPathWithRect:self.bounds].CGPath;
+  _border.path = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:self.borderRadius].CGPath;
   _border.frame = self.bounds;
 }
 
