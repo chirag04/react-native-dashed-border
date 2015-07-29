@@ -20,7 +20,7 @@ var DashedBorder = require('react-native-dashed-border');
 var DashedBorderExampleApp = React.createClass({
   render: function() {
     return (
-      <DashedBorder color={'#343434'} lineDashPattern={[4,2]} style={styles.container}>
+      <DashedBorder color={'#343434'} lineDashPattern={[4,2]} lineWidth={1.5} style={styles.container}>
         <Image source={require('image!announcement')} style={styles.image} />
       </DashedBorder>
     );

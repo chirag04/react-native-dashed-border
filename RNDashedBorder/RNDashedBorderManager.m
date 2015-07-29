@@ -27,6 +27,7 @@ RCT_EXPORT_MODULE();
 }
 
 RCT_EXPORT_VIEW_PROPERTY(color, NSString);
+RCT_EXPORT_VIEW_PROPERTY(lineWidth, NSNumber);
 RCT_EXPORT_VIEW_PROPERTY(lineDashPattern, NSArray);
 
 @end
