@@ -43,4 +43,9 @@
   _border.lineDashPattern = pattern;
 }
 
+- (void)setLineWidth:(NSNumber *)lineWidth
+{
+  _border.lineWidth = [RCTConvert CGFloat:lineWidth];
+}
+
 @end
