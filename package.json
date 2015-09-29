@@ -1,6 +1,6 @@
 {
   "name": "react-native-dashed-border",
-  "version": "0.1.7",
+  "version": "2.0.0",
   "description": "A <DashedBorder> element for react-native",
   "main": "DashedBorder.ios.js",
   "author": {
@@ -20,8 +20,5 @@
     "dashed border",
     "uiview",
     "view"
-  ],
-  "peerDependencies": {
-    "react-native": ">= 0.4 || 0.7.0-rc1"
-  }
+  ]
 }

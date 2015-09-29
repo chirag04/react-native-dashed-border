@@ -26,7 +26,7 @@ RCT_EXPORT_MODULE();
     return dispatch_get_main_queue();
 }
 
-RCT_EXPORT_VIEW_PROPERTY(color, NSString);
+RCT_EXPORT_VIEW_PROPERTY(color, NSNumber);
 RCT_EXPORT_VIEW_PROPERTY(lineWidth, NSNumber);
 RCT_EXPORT_VIEW_PROPERTY(lineDashPattern, NSArray);
 

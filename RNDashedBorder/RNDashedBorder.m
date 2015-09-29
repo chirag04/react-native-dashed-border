@@ -33,7 +33,7 @@
   _border.frame = self.bounds;
 }
 
-- (void)setColor:(NSString *)colorString
+- (void)setColor:(NSNumber *)colorString
 {
   _border.strokeColor = [RCTConvert UIColor:colorString].CGColor;
 }
