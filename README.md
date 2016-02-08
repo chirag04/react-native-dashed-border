@@ -1,3 +1,6 @@
+#DEPRECATED
+dashed border already works on react native 0.19+. Use `style : { borderStyle: 'dashed' }` in your stylesheet. 
+
 # react-native-dashed-border
 
 Very simple native component that gives you dashed borders. Copied from brentvatne example [here](https://github.com/brentvatne/react-native-dashed-border-example)
